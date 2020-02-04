@@ -14,7 +14,10 @@ int main(){
 		printf("ファイルオープン失敗\n");
 		return -1;
 	}
-
+	
+	/* 足した　
+fprintf(fp,"ファイルに文字を書き込みます。文字列「a」、数字「b」");
+	
 	//ファイルを閉じる
 	fclose(fp);
 	return 0;
